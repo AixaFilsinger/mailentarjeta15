@@ -35,7 +35,7 @@ body{
   background: url(./assets/fondop.png) no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh; 
+  min-height: 100vh; 
 }
 .fondoc{
    background: url(./assets/fondoc.png) no-repeat;
