@@ -1,6 +1,6 @@
 import quince from "../assets/15.png";
-import princesa from "../assets/princesa.jpg";
-import castillo from "../assets/castillo.jpg";
+import princesa from "../assets/chica.png";
+import castillo from "../assets/castillo2.png";
 
 const Portada = () => {
   return (
@@ -24,7 +24,7 @@ const Portada = () => {
       </aside>
 
       <h1 className="enfoque">
-        {"Pilar".split("").map((letra, i) => (
+        {"Mailen".split("").map((letra, i) => (
           <span key={i} style={{ animationDelay: `${i * 0.1}s` }}>
             {letra}
           </span>

@@ -32,7 +32,7 @@ body{
   font-style: normal;
 }
 .fondo1{
-  background: url(./assets/fondoultimo.png) no-repeat;
+  background: url(./assets/fondo1.png) no-repeat;
   background-size: cover;
 }
 
@@ -41,7 +41,7 @@ body{
 .portada h1{
   font-family: 'Amoresa', cursive;
   font-size: 6rem;
-  color: #8D9F6C;
+  color: rgb(212, 175, 55);
   margin-bottom: 18rem;
   position: relative;
   z-index: 2;
@@ -171,7 +171,7 @@ small{
 }
 
 .btn-music {
-  background-color: #749764; /* botón blanco */
+  background-color: rgb(212, 175, 55); /* botón blanco */
   color: white; /* ícono color vino */
   border: none;
   padding: 10px 15px;
@@ -188,7 +188,7 @@ small{
 }
 
 .varios0{
-  background: url(./assets/maslargo.jpg) no-repeat;
+  background: url(./assets/fondoBrillo.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -212,8 +212,8 @@ small{
   margin:20px 30px;
 }
 .btn-varios2 {
-  background: #749764;
-  color: #fff;
+  background: #FFD7D6;
+  color: black;
   border: 2px solid gold;
   border-radius: 50px;
   padding: 12px 30px;
@@ -227,8 +227,8 @@ small{
 
 .btn-varios {
    font-family: 'Cormorant Garamond', serif;
-  background: #749764;
-  color: #fff;
+  background: #FFD7D6;
+  color: black;
   border: 2px solid gold;
   border-radius: 50px;
   padding: 12px 30px;
@@ -242,7 +242,7 @@ small{
 
 .btn-varios:hover {
   background: gold;
-  color: #8D9F6C; /* texto vino */
+  color: black; /* texto vino */
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
@@ -256,7 +256,7 @@ small{
 .fin {
   height: 100vh;
   position: relative;
-  background: url(./assets/Ini.png);
+  background: url(./assets/fin2.png);
   background-size: cover;
   background-position: center;
   overflow: hidden; /* para que el overlay no se escape */
@@ -350,7 +350,7 @@ small{
 
 /* 🔹 Colores específicos */
 .color-circle.verde {
-  background-color: #749764;
+  background-color: #FACAC8;
 }
 
 
