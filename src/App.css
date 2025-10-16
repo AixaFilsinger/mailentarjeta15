@@ -32,13 +32,13 @@ body{
   font-style: normal;
 }
 .fondo1{
-  background: url(./assets/fondop.png) no-repeat;
+  background: url(./assets/Fondop.png) no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 100vh; 
 }
 .fondoc{
-   background: url(./assets/fondoc.png) no-repeat;
+   background: url(./assets/Fondoc.png) no-repeat;
   background-size: cover;
 }
 
@@ -130,6 +130,7 @@ body{
 }
 .frase{
   margin-bottom: 8rem;
+  margin-top: 5rem;
 }
 .frase p{
   font-family: 'Cormorant Garamond', serif;
