@@ -5,7 +5,7 @@ import Notamusical from "../assets/disco.png";
 import copas from "../assets/copasN.png";
 import asistencia from "../assets/invitacionN.png";
 import regalo from "../assets/regaloN.png";
-import qr from "../assets/qr.jpeg";
+import qr from "../assets/qr.jpg";
 
 import { useState } from "react";
 
@@ -110,7 +110,7 @@ const Varios = () => {
                 className="btn-varios mt-3 mb-5"
                 onClick={() =>
                   window.open(
-                    "https://open.spotify.com/playlist/5g3p3R0ducJAilePxlNoy6?si=Unt-MiD-R1i7tTblbFwSaA&pt=595dcfc4382e657956463922ed6acb99"
+                    "https://open.spotify.com/playlist/2gUuOFCXoBFirMlfyc2NkG?si=gxKsaMAFRkaaGOVbLOrTdw&pt=ae8af048bf3ba0d88fa10d1059d1c000"
                   )
                 }
               >
