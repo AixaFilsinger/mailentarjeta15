@@ -7,7 +7,7 @@ const Portada = () => {
     <section className="d-flex flex-column align-items-center  portada">
       <aside className="linea">
         <h2 className="enfoque mis">
-          {"mis".split("").map((letra, i) => (
+          {"Mis".split("").map((letra, i) => (
             <span key={i} style={{ animationDelay: `${i * 0.1}s` }}>
               {letra}
             </span>
