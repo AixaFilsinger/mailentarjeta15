@@ -30,7 +30,7 @@ const Portada = () => {
           </span>
         ))}
       </h1>
-      <img src={castillo} alt="" className="decor decor-izq" width={500} />
+      <img src={castillo} alt="" className="decor decor-izq" width={400} />
       <img src={princesa} alt="" className="decor decor-der" width={500} />
     </section>
   );
