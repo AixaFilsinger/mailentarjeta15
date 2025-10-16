@@ -32,7 +32,11 @@ body{
   font-style: normal;
 }
 .fondo1{
-  background: url(./assets/fondo1.png) no-repeat;
+  background: url(./assets/fondop.png) no-repeat;
+  background-size: cover;
+}
+.fondoc{
+   background: url(./assets/fondoc.png) no-repeat;
   background-size: cover;
 }
 
@@ -41,7 +45,7 @@ body{
 .portada h1{
   font-family: 'Amoresa', cursive;
   font-size: 6rem;
-  color: rgb(212, 175, 55);
+  color: black;
   margin-bottom: 18rem;
   position: relative;
   z-index: 2;
@@ -86,18 +90,20 @@ body{
 .decor {
   position: absolute;
   width: 100px;          /* tamaño ideal móvil */
-  /*opacity: 0.8;*/
+  opacity: 0.8;
   z-index: 1;
 }
 
 .decor-izq {
   left: 10px;
-  bottom: 2rem;
+  bottom: 1.5rem;
+  width: 200px;
 }
 
 .decor-der {
-  right: -10px;
-  bottom: 3.5rem;
+  right: 10px;
+  bottom: 1.5rem;
+  width: 220px;
 }
 .enfoque span {
   display: inline-block;
@@ -113,13 +119,7 @@ body{
   }
 }
 
-/* Ajustes finos para pantallas más pequeñas */
-@media (max-width: 480px) {
-  .decor {
-    width: 200px;
-    
-  }
-}
+
 
 .repro{
   margin-top: 2rem;
@@ -136,9 +136,7 @@ body{
 }
 
 .cuentaRe {
-  position: relative;
-  top: -280px; /* mueve la sección hacia arriba sobre la imagen */
-  z-index: 2; /* asegura que quede por encima */
+  
   width: 100%;
   text-align: center;
   color: black;
@@ -146,21 +144,21 @@ body{
 }
 .cuentaRe h2 {
   font-family: "Amoresa", cursive;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: rgb(30, 30, 30);
   /*text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 20px #000, 0 0 40px #000,
     0 0 80px #000;*/
 }
 .cuentaRe  h3{
   font-family: 'Amoresa', cursive;
-  font-size: 1rem;
+  font-size: 1.5rem;
   
 }
 
 .contador h3 {
    font-family: "Riwaya", cursive;
   margin-bottom: 0; /* elimina espacio innecesario debajo del número */
-  font-size: 2.5rem; /* opcional: agranda números */
+  font-size: 3.5rem; /* opcional: agranda números */
 }
 small{
    font-family: 'Times New Roman', Times, serif
@@ -188,7 +186,7 @@ small{
 }
 
 .varios0{
-  background: url(./assets/fondoBrillo.jpg) no-repeat;
+  background: url(./assets/fondogliter.png) no-repeat;
   background-size: cover;
   background-position: center;
 }

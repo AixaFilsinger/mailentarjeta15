@@ -1,5 +1,8 @@
-import circulo from "../assets/Cuentar.png";
 import { useEffect, useState } from "react";
+import adorno1 from "../assets/adorno1.png"
+import adorno2 from "../assets/adorno2.png"
+import adorno3 from "../assets/adorno3.png"
+import adorno4 from "../assets/adorno4.png"
 const CuentaRegresiva = () => {
   const targetDate = new Date("2025-11-08T21:30:00").getTime(); // FECHA DEL EVENTO
 
@@ -44,10 +47,11 @@ const CuentaRegresiva = () => {
     return () => clearInterval(timer);
   }, [targetDate]);
   return (
-    <section>
-      <aside className="d-flex justify-content-center align-items-center pe-3">
-        <img src={circulo} alt="" width={350} />
-      </aside>
+    <section className="mb-5">
+     <aside className="d-flex justify-content-around">
+      <img src={adorno1} alt="" width={200} />
+      <img src={adorno2} alt="" width={200}/>
+     </aside>
 
       <section className="cuentaRe d-flex flex-column justify-content-center align-items-center text-center pe-3">
         <h2 className="h2-cuentaRe ">¡Tan solo faltan!</h2>
@@ -76,6 +80,10 @@ const CuentaRegresiva = () => {
         </aside>
         <h3 className="mt-3">Para este día tan especial</h3>
       </section>
+      <aside className="d-flex justify-content-around">
+      <img src={adorno3} alt="" width={200} />
+      <img src={adorno4} alt="" width={200}/>
+     </aside>
     </section>
   );
 };
