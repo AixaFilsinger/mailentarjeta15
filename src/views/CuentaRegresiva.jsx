@@ -49,8 +49,8 @@ const CuentaRegresiva = () => {
   return (
     <section className="mb-5">
      <aside className="d-flex justify-content-around">
-      <img src={adorno1} alt="" width={200} />
-      <img src={adorno2} alt="" width={200}/>
+      <img src={adorno1} alt="" width={170} />
+      <img src={adorno2} alt="" width={170}/>
      </aside>
 
       <section className="cuentaRe d-flex flex-column justify-content-center align-items-center text-center pe-3">
@@ -81,8 +81,8 @@ const CuentaRegresiva = () => {
         <h3 className="mt-3">Para este día tan especial</h3>
       </section>
       <aside className="d-flex justify-content-around">
-      <img src={adorno3} alt="" width={200} />
-      <img src={adorno4} alt="" width={200}/>
+      <img src={adorno3} alt="" width={170} />
+      <img src={adorno4} alt="" width={170}/>
      </aside>
     </section>
   );
