@@ -15,7 +15,7 @@ function App() {
          <ReproductorMusic></ReproductorMusic>
       <Portada></Portada>
        </aside>
-       <aside className='fondoc'>
+       <aside className='fondoc mt-5'>
         <Frase></Frase>
       <CuentaRegresiva></CuentaRegresiva>
        </aside>
